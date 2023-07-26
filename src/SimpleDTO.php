@@ -33,9 +33,6 @@ abstract class SimpleDTO implements CastsAttributes
      */
     public function __construct(?array $data = null)
     {
-        //实例化facede
-        Facade::setFacadeApplication($this);
-
         if (is_null($data)) {
             return;
         }
@@ -350,7 +347,7 @@ abstract class SimpleDTO implements CastsAttributes
     /**
      * @throws \Chunpat\ValidatedDto\Exceptions\CastTargetException
      */
-    protected function castValue($cast, string $key, $value): mixed
+    protected function castValue($cast, string $key, $value)
     {
         if ($cast instanceof Castable) {
             return $cast->cast($key, $value);
