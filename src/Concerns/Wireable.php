@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chunpat\ValidatedDto\Concerns;
+namespace Chunpat\ValidatedDTO\Concerns;
 
 use stdClass;
 

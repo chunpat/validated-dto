@@ -2,7 +2,7 @@
 
 namespace {{ namespace }};
 
-use Chunpat\ValidatedDto\ValidatedDto;
+use Chunpat\ValidatedDTO\ValidatedDTO;
 
 class {{ class }} extends ValidatedDTO
 {

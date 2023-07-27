@@ -2,7 +2,7 @@
 
 namespace {{ namespace }};
 
-use Chunpat\ValidatedDto\ResourceDTO;
+use Chunpat\ValidatedDTO\ResourceDTO;
 
 class {{ class }} extends ResourceDTO
 {

@@ -2,7 +2,7 @@
 
 namespace {{ namespace }};
 
-use Chunpat\ValidatedDto\SimpleDTO;
+use Chunpat\ValidatedDTO\SimpleDTO;
 
 class {{ class }} extends SimpleDTO
 {

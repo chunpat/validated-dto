@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Chunpat\ValidatedDto;
+namespace Chunpat\ValidatedDTO;
 
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\ValidationException;
-use Chunpat\ValidatedDto\Casting\Castable;
-use Chunpat\ValidatedDto\Exceptions\CastTargetException;
-use Chunpat\ValidatedDto\Exceptions\MissingCastTypeException;
+use Chunpat\ValidatedDTO\Casting\Castable;
+use Chunpat\ValidatedDTO\Exceptions\CastTargetException;
+use Chunpat\ValidatedDTO\Exceptions\MissingCastTypeException;
 
 abstract class ValidatedDTO extends SimpleDTO
 {

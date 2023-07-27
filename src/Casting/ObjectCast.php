@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Chunpat\ValidatedDto\Casting;
+namespace Chunpat\ValidatedDTO\Casting;
 
-use Chunpat\ValidatedDto\Exceptions\CastException;
+use Chunpat\ValidatedDTO\Exceptions\CastException;
 
 class ObjectCast implements Castable
 {

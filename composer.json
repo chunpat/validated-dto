@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Chunpat\\ValidatedDto\\": "src"
+            "Chunpat\\ValidatedDTO\\": "src"
         }
     }
 }

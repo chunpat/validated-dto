@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chunpat\ValidatedDto\Casting;
+namespace Chunpat\ValidatedDTO\Casting;
 
 interface Castable
 {

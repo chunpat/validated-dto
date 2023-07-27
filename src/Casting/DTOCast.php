@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Chunpat\ValidatedDto\Casting;
+namespace Chunpat\ValidatedDTO\Casting;
 
 use Illuminate\Validation\ValidationException;
 use Throwable;
-use Chunpat\ValidatedDto\Exceptions\CastException;
-use Chunpat\ValidatedDto\Exceptions\CastTargetException;
-use Chunpat\ValidatedDto\SimpleDTO;
+use Chunpat\ValidatedDTO\Exceptions\CastException;
+use Chunpat\ValidatedDTO\Exceptions\CastTargetException;
+use Chunpat\ValidatedDTO\SimpleDTO;
 
 class DTOCast implements Castable
 {

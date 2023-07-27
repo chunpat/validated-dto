@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chunpat\ValidatedDto;
+namespace Chunpat\ValidatedDTO;
 
 //use Illuminate\Console\Command;
 use Illuminate\Contracts\Console\Application;
@@ -12,11 +12,11 @@ use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Validation\ValidationException;
-use Chunpat\ValidatedDto\Casting\ArrayCast;
-use Chunpat\ValidatedDto\Casting\Castable;
-use Chunpat\ValidatedDto\Exceptions\CastTargetException;
-use Chunpat\ValidatedDto\Exceptions\InvalidJsonException;
-use Chunpat\ValidatedDto\Exceptions\MissingCastTypeException;
+use Chunpat\ValidatedDTO\Casting\ArrayCast;
+use Chunpat\ValidatedDTO\Casting\Castable;
+use Chunpat\ValidatedDTO\Exceptions\CastTargetException;
+use Chunpat\ValidatedDTO\Exceptions\InvalidJsonException;
+use Chunpat\ValidatedDTO\Exceptions\MissingCastTypeException;
 
 abstract class SimpleDTO implements CastsAttributes
 {
@@ -345,7 +345,7 @@ abstract class SimpleDTO implements CastsAttributes
     }
 
     /**
-     * @throws \Chunpat\ValidatedDto\Exceptions\CastTargetException
+     * @throws \Chunpat\ValidatedDTO\Exceptions\CastTargetException
      */
     protected function castValue($cast, string $key, $value)
     {

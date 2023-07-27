@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chunpat\ValidatedDto\Exceptions;
+namespace Chunpat\ValidatedDTO\Exceptions;
 
 use Exception;
 use Symfony\Component\HttpFoundation\Response;

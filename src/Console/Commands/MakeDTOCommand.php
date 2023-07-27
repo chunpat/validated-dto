@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chunpat\ValidatedDto\Console\Commands;
+namespace Chunpat\ValidatedDTO\Console\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Illuminate\Support\Str;
