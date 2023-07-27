@@ -7,7 +7,7 @@
 
 源项目是这个
 [laravel-validated-dto](https://github.com/WendellAdriel/laravel-validated-dto)
-但是PHP和Laravel都是最新版本，没兼容低版本，所以我来需要修修改改。
+但是PHP和Laravel都是最新版本，没兼容低版本，所以我需要修修改改。
 
 
 ```shell
@@ -20,9 +20,10 @@ TODO
 
 ## TODO
 
-- [ ] 兼容php7.2 语法
+- [x] 兼容php7.2 语法
+- [x] 兼容Laravel Components ^7.0
 - [ ] 兼容ThinkPHP5.1
-- [ ] 兼容Laravel Components ^7.0
+
 
 ## Contributing
 
